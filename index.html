@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>A Jornada pelas Montanhas Místicas</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="Mapa das montanhas místicas">
+            <p>Você encontrou um velho mapa que leva à lendária Joia da Eternidade, escondida nas Montanhas Místicas. As instruções são vagas, mas você precisa escolher um ponto de partida. Qual será?</p>
+            <button class="btn-proximo" data-proximo="1">Ir para as Montanhas do Norte</button>
+            <button class="btn-proximo" data-proximo="2">Explorar as Florestas do Sul</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>As Montanhas do Norte são conhecidas por seus picos gelados e suas cavernas ocultas. Após horas de caminhada, você chega a uma bifurcação. O caminho à esquerda leva a uma caverna, e à direita a um desfiladeiro estreito. Para onde vai?</p>
+            <button class="btn-proximo" data-proximo="3">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="4">Seguir pelo desfiladeiro</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Nas Florestas do Sul, lendas dizem que a antiga tribo dos Guardiões da Joia ainda protege o segredo das Montanhas Místicas. Você encontra uma aldeia antiga. Onde vai procurar?</p>
+            <button class="btn-proximo" data-proximo="5">Explorar a aldeia abandonada</button>
+            <button class="btn-proximo" data-proximo="6">Seguir pela trilha florestal</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Dentro da caverna, você encontra pinturas rupestres que indicam que a Joia está guardada em um templo escondido. As pistas sugerem que o próximo passo é encontrar o Templo do Vento, nas Montanhas do Oeste.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para as Montanhas do Oeste</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-desfiladeiro.jpg" alt="Desfiladeiro perigoso">
+            <p>O desfiladeiro é estreito e perigoso. Você quase escorrega várias vezes e decide que é melhor voltar. O risco é grande demais. Você desiste da aventura.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Explorando a aldeia abandonada, você encontra um pergaminho antigo que menciona o Templo do Vento, escondido nas Montanhas do Oeste. Parece que sua próxima pista está lá.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para as Montanhas do Oeste</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Seguindo pela trilha florestal, você acaba em um beco sem saída. Não há nada mais a explorar aqui. Talvez a aldeia abandonada contenha mais pistas.</p>
+            <button class="btn-proximo" data-proximo="5">Voltar à aldeia</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Nas Montanhas do Oeste, você finalmente encontra o Templo do Vento. A entrada é protegida por guardiões de pedra. Você precisa escolher um caminho: tentar passar pelos guardiões ou procurar uma entrada alternativa.</p>
+            <button class="btn-proximo" data-proximo="8">Enfrentar os guardiões</button>
+            <button class="btn-proximo" data-proximo="9">Procurar uma entrada alternativa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Os guardiões de pedra ganham vida e bloqueiam seu caminho. Após uma batalha difícil, você consegue passar, mas está ferido. No entanto, à frente está a Joia da Eternidade, reluzindo no altar.</p>
+            <button class="btn-proximo" data-proximo="10">Pegar a Joia</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Procurando uma entrada alternativa, você encontra uma passagem secreta nas montanhas. Ela leva diretamente ao salão principal do templo, onde a Joia da Eternidade repousa, intocada por séculos.</p>
+            <button class="btn-proximo" data-proximo="10">Pegar a Joia</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-joia.jpg" alt="A Joia da Eternidade">
+            <p>Você finalmente encontrou a Joia da Eternidade! Sua jornada foi cheia de desafios, mas o poder da Joia agora está em suas mãos. Parabéns, aventureiro!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
